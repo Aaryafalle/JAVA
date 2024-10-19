@@ -1,0 +1,30 @@
+**Calculating the total percentage of Student**
+import java.util.Scanner;
+// taking the input from the user
+public class percentage {
+    public static void main(String[] args) {
+        System.out.println("Enter your marks for following subjects");
+        float total = 600;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter marks for chemistry:");
+        Float a = sc.nextFloat();
+        System.out.println("Enter marks for computer networks:");
+        Float b = sc.nextFloat();
+        System.out.println("Enter marks for software project management:");
+        Float c = sc.nextFloat();
+        System.out.println("Enter marks for data structures:");
+        Float d = sc.nextFloat();
+        System.out.println("Enter marks for fundamentals of data:");
+        Float e = sc.nextFloat();
+        System.out.println("Enter marks for dbms:");
+        Float f = sc.nextFloat();
+        Float x = (a+b+c+d+e+f);
+        System.out.println("Sum is:");
+        System.out.println(x);
+        Float percentage = (x/total)*100;
+        System.out.println("percentage is:");
+        System.out.println(percentage);
+
+
+    }
+}
