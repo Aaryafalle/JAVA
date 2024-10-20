@@ -1,0 +1,15 @@
+public class increment {
+    public static void main(String[] args) {
+        System.out.println("following is the code for increment and decrement");
+        int x = 8;
+        System.out.println(x++);
+        System.out.println(x);
+        System.out.println(++x);
+        System.out.println(x);
+        int y = 5;
+        System.out.println(--y);
+        char ch = 'a';
+        System.out.println(++ch);
+
+    }
+}
