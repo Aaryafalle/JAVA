@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class goodday {
+    public static void main(String[] args) {
+        // problem1: print hello <name> good morning
+//        System.out.println("Enter your name: ");
+//        Scanner sc = new Scanner(System.in);
+//        String str = sc.nextLine();
+//        System.out.println("hello " + str + " good morning! , have a good day");
+
+        // problem2: detect whether the number entered is integer or not
+        System.out.println("enter a number");
+        Scanner sc = new Scanner(System.in);
+        System.out.println(sc.hasNextBoolean());
+
+    }
+}
