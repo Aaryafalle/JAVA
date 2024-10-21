@@ -1,0 +1,18 @@
+public class literals {
+    public literals() {
+    }
+//literals used in JAVA
+    public static void main(String[] args) {
+        float a1 = 57.8F;
+        boolean a2 = false;
+        long a3 = 325732442835L;
+        int age = 56;
+        byte a4 = true;
+        short a5 = true;
+        double d1 = 4.7;
+        char c1 = true;
+        System.out.println(a3 + (long)age);
+        String str = "aarya";
+        System.out.println(str);
+    }
+}
