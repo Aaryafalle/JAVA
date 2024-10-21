@@ -1,0 +1,62 @@
+import java.sql.SQLOutput;
+import java.util.Scanner;
+
+public class chapter4_problems {
+    public static void main(String[] args) {
+//        byte m1, m2, m3;
+//        System.out.println("Please enter your Chemistry marks:-");
+//        Scanner sc = new Scanner(System.in);
+//        m1 = sc.nextByte();
+//        System.out.println("Please enter your Physics marks:-");
+//        m2 = sc.nextByte();
+//        System.out.println("Please enter your mathematics marks:-");
+//        m3 = sc.nextByte();
+//        float avg = (m1+m2+m3)/3.0f;
+//        if(avg>=40.0 && m1>=33 && m2>=33 && m3>=33)
+//            System.out.println("pass");
+//        else
+//            System.out.println("Failed beta");
+
+//    problem 2 (Taking the input from the user and printing days)
+
+//        int day;
+//        Scanner sc = new Scanner(System.in);
+//        day = sc.nextInt();
+//        if(day==1)
+//            System.out.println("monday");
+//        else if (day==2) {
+//            System.out.println("Tuesday");
+//        }
+//        else if (day==3) {
+//            System.out.println("Wednesday");
+//        }
+//        else if (day==4) {
+//            System.out.println("Thursday");
+//        }
+//        else if (day==5) {
+//            System.out.println("Friday");
+//        }
+//        else if (day==6) {
+//            System.out.println("Saturday");
+//        }
+//        else if (day==7){
+//            System.out.println("Sunday");
+//        }
+//        else
+//            System.out.println("end");
+
+//Problem 3 : state if the given input is commercial, organisational or indian based on its endings 
+        String web;
+        Scanner sc = new Scanner(System.in);
+        web = sc.next();
+        if (web.endsWith(".com")){
+            System.out.println("its commercial");
+        }
+        else if (web.endsWith(".org")){
+            System.out.println("its organisational");
+        }
+        else if (web.endsWith(".in"))
+            System.out.println("its indian");
+
+    }
+}
