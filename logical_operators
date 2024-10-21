@@ -1,0 +1,38 @@
+public class logical_operators {
+    public static void main(String[] args) {
+        Boolean a = true;
+        Boolean b = false;
+        System.out.println("For AND operation");
+        if (a && b) {
+            System.out.println("y");
+        }
+        else
+            System.out.println("n");
+//        for OR operation
+        System.out.println("For OR operation");
+        if (a || b) {
+            System.out.println("y");
+        }
+        else
+            System.out.println("n");
+//        for NOT operation
+        System.out.println("for NOT operation");
+        System.out.println("NOT(a) is:");
+        System.out.println(!a); //this operation will reverse the word
+        System.out.println("NOT(b) is:");
+        System.out.println(!b);
+
+    }
+}
+
+//Output For AND operation
+//n
+//For OR operation
+//y
+//for NOT operation
+//NOT(a) is:
+//false
+//NOT(b) is:
+//true
+
+//Process finished with exit code 0
