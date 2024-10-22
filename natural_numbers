@@ -1,0 +1,10 @@
+public class natural_nos {
+    public static void main(String[] args) {
+        //print all natural numbers from 100-200
+        int num = 100;
+        while ( num <= 200 ){
+            System.out.println(num);
+            num++;
+        }
+    }
+}
