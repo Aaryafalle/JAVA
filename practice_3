@@ -1,0 +1,20 @@
+public class Practice3 {
+    public static void main(String[] args) {
+        String text1 = "Aarya <|middle|>  Falle";
+        System.out.println(text1.replace("<|middle|>", "Rajesh"));
+        System.out.println(text1.replace(" ", "_"));
+        System.out.println(text1.toLowerCase());
+        System.out.println(text1.indexOf("  "));//will give the index of double spaces if present if not then it will produce output as -1
+        System.out.println(text1.indexOf("   ")); //will give the index of triple spaces
+        String text2 = " Aarya is loving this JAVA Journey";
+        System.out.println();
+
+    }
+}
+//OUTPUT
+Aarya Rajesh  Falle
+Aarya_<|middle|>__Falle
+aarya <|middle|>  falle
+16
+-1
+
