@@ -1,0 +1,49 @@
+
+
+public class strings1 {
+    public static void main(String[] args) {
+        String name = "Aarya Falle";
+        System.out.println(name);
+        System.out.println(name.length()); //gives the length of string
+        System.out.println(name.toUpperCase());//converts into uppercase
+        System.out.println(name.toLowerCase()); // converts into lowercase
+        System.out.println(name.substring(2)); //gives the string fromindex 2
+        System.out.println(name.substring(1,8)); //index1 to 7 NOTE IT WILL NOT PRINT 8TH INDEX
+        System.out.println(name.replace('F', 'p'));//this will replace f->p
+        System.out.println(name.startsWith("aar")); // starts with aar? no Aarya? yeah
+        System.out.println(name.endsWith("lle")); // ends with lle?  true
+        System.out.println(name.charAt(3));// 3->y
+        System.out.println(name.indexOf('e')); //2nd index->r
+        System.out.println(name.indexOf("l",1)); // from 1 index i.e a till e count the space also
+        System.out.println(name.lastIndexOf("e" ));
+        System.out.println(name.lastIndexOf("A",10));// from 10 -> e index of A is 0
+        System.out.println(name.equals("aarya"));
+        System.out.println(name.equalsIgnoreCase("aarya falle"));//ignore the uppercase and over but the content should be same then it returns true
+        String str = "      aari is cool      ";
+        System.out.println(str.trim()); // cuts down the stress
+        System.out.println(str.equals("aari is cool"));
+
+    }
+}
+
+//OUTPUT
+Aarya Falle
+11
+AARYA FALLE
+aarya falle
+rya Falle
+arya Fa
+Aarya palle
+false
+true
+y
+10
+8
+10
+0
+false
+true
+aari is cool
+false
+
+Process finished with exit code 0
