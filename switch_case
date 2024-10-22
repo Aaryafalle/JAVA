@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class switch_case {
+    public static void main(String[] args) {
+        int age;
+        System.out.println("enter a number");
+        Scanner sc = new Scanner(System.in);
+         age = sc.nextInt();
+         switch(age){
+             case(54):
+                 System.out.println("aarya is cool");
+                 break;
+             case(4):
+                 System.out.println("aarya is smart");
+                 break;
+             case(5):
+                 System.out.println("aarya is hushar");
+                 break;
+             case(544):
+                 System.out.println("aarya will go to cornell");
+                 break;
+             default:
+                 System.out.println("aarya has scored 9.5 cgpa");
+
+
+
+         }
+    }
+}
+
+
+//OUTPUT
+//6
+//aarya has scored 9.5 cgpa
