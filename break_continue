@@ -1,0 +1,64 @@
+public class break_continue {
+    public static void main(String[] args) {
+// **BREAK**
+//        for (int i = 0; i<=50; i++){
+//            System.out.println(i);
+//            System.out.println("Aarya is cool");
+//            if (i==3){
+//                System.out.println("End of loop");
+//                break; // when i will be 3 it will exit the loop
+//            }
+//        }
+//        System.out.println("byye ");
+
+//        int i=0;
+//        while(i<5){
+//
+//            System.out.println(i);
+//            System.out.println("let's check for while loop");
+//            if (i==2){
+//                System.out.println("break from while loop");
+//                break;
+//            }
+//            i++;
+//        }
+//
+//        int i = 0;
+//        do {
+//
+//            System.out.println(i);
+//            System.out.println("DO_WHILE loop");
+//            if (i==2){
+//                System.out.println("Break DO_WHILE");
+//                break;
+//            }
+//            i++;
+//        }while(i<5);{
+//            System.out.println("yeahh!!");
+//        }
+ //**CONTINUE LOOP**//
+//        int i = 0;
+//        do {
+//            i++;
+//            if (i==2){
+//                System.out.println("Break DO_WHILE");
+//                continue;
+//            }
+//            System.out.println(i);
+//            System.out.println("DO_WHILE loop");
+//        }while(i<5);{
+//            System.out.println("yeahh!!");
+//        }
+
+        for (int i = 0; i<=50; i++){
+           if (i==3){
+                System.out.println("End of loop");
+                continue; // the control is transfered to next iteration
+               // i==3 will not be printed
+            }
+            System.out.println(i);
+            System.out.println("Aarya is cool");
+        }
+        System.out.println("byye ");
+    }
+}
