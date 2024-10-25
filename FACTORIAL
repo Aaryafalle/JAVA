@@ -1,0 +1,30 @@
+public class factorial {
+    public static void main(String[] args) {
+        //program for finding the factorial using for loop
+
+//        int n=5;
+//        int i = 1;
+//        int factorial = 1;
+//        while(i<=n){
+//            factorial*=i;
+//            i++;
+//        }
+//        System.out.println("factorial for 5 is:"+ factorial);
+// output
+// factorial for 5 is:
+// 120
+//
+//Process finished with exit code 0
+        int n = 5;
+        int factorial=1;
+        for (int i=1; i<=n; i++){
+            factorial *=i;
+        }
+        System.out.println("Using for loop \n"+factorial);
+    }
+}
+//OUTPUT//
+//Using for loop
+//120
+//
+//Process finished with exit code 0
