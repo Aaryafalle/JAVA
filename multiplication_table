@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class multiplication_table {
+    public static void main(String[] args) {
+        //print multiplication table of given number n
+        Scanner sc = new Scanner(System.in);
+        System.out.println("please enter the number for which u want your table:");
+        int n = sc.nextInt();
+        for (int i=1; i<=10 ; i++){
+            System.out.printf("%d + %d = %d\n",n,i,n*i);
+        }
+    }
+}
+
+//output
+//please enter the number for which u want your table:
+//9
+//9 + 1 = 9
+//9 + 2 = 18
+//9 + 3 = 27
+//9 + 4 = 36
+//9 + 5 = 45
+//9 + 6 = 54
+//9 + 7 = 63
+//9 + 8 = 72
+//9 + 9 = 81
+//9 + 10 = 90
+//
+//Process finished with exit code 0
