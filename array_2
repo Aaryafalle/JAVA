@@ -1,0 +1,13 @@
+ //-declaration + memory allocation
+            System.out.println("declaration + memory allocation is");
+            int [] names = new int[6];
+            names [0]=73;
+            names [1] = 24;
+            names [2] = 12;
+            names [3] = 25;
+            names [4] = 49;
+            System.out.println(names[4]);
+
+//oUTPUT
+//declaration + memory allocation is
+//49
