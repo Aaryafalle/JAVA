@@ -1,0 +1,10 @@
+//declaration + memory allocation + initialization
+            System.out.println("declaration + memory allocation + initialization is ");
+            int [] numbers = {10, 20, 30,40 ,50};
+            System.out.println(numbers[2]);
+
+//OUTPUT
+//declaration + memory allocation + initialization is 
+//30
+
+//Process finished with exit code 0
